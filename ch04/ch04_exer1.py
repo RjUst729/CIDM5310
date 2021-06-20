@@ -10,4 +10,5 @@ samp = faang.groupby('ticker').resample('1M').agg(
         'volume': np.sum
     }
 )
-print(samp)
+
+
